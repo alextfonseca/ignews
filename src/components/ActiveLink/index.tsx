@@ -18,7 +18,7 @@ export function ActiveLink({
   const className = asPath === props.href ? activeClass : "";
 
   return (
-    // clonando o a tag a e adicionando a classe no elemento
+    // clonando o a tag <a> e adicionando a classe no elemento
     <Link {...props}>
       {cloneElement(children, {
         className,

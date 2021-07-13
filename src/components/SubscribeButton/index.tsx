@@ -1,4 +1,5 @@
 import { useSession, signIn } from "next-auth/client";
+import { useRouter } from "next/dist/client/router";
 import { api } from "../../services/api";
 import { getStripeJs } from "../../services/stripe-js";
 import styles from "./styles.module.scss";
@@ -9,11 +10,20 @@ interface SignInButtonProps {
 
 export function SubscribeButton({ priceId }: SignInButtonProps) {
   const [session] = useSession();
+
+  const router = useRouter();
+
   // função para criar o usuário no stripe e fazer a sessão de checkout
   async function handleSubscribe() {
     // se o usuário não estiver logado ele vai para a tela de login
     if (!session) {
       signIn("github");
+      return;
+    }
+
+    // redirecionado o usuário caso ele ja esteja inscrito
+    if (session.activeSubscription) {
+      router.push("/posts");
       return;
     }
 
