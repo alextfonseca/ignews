@@ -1,34 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ig.news
 
-## Getting Started
+<img src="public/ignews.png" alt="exemplo imagem">
 
-First, run the development server:
+> Ignews é uma aplicação de conteúdo sobre React.js com sistema de inscrição via stripe. Essa aplicação foi desenvolvida no treinamento do ignite da rocketseat, nele foi mostrado com criar uma aplicação JAMStack onde não precisamos de back-end para fazer o desenvolvimento da aplicação.
+
+## 💻 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+
+- Você instalou a versão mais recente do `< node / npm ou yarn >`
+- Você tem uma máquina `< Windows / Linux / Mac >`.
+
+## 🚀 Instalando o projeto na sua maquina
+
+Para instalar o projeto, siga estas etapas:
+
+Linux e macOS:
 
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/alextfonseca/ignews.git
+
+$ cd ignews
+
+$ yarn install ou npm install
+
+$ yarn start ou npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Windows:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+git clone https://github.com/alextfonseca/ignews.git
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+$ cd ignews
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+$ yarn install ou npm install
 
-## Learn More
+$ yarn start ou npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🧾 Usando o projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Com o projeto Ig.news você teá um exemplo de como construir uma aplicação com CMS e como criar método de pagamento dentro do aplicação:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# <a href="https://github.com/alextfonseca/ignews">Acesse o projeto</a>
 
-## Deploy on Vercel
+## 😄 Me siga nas redes sociais<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="left">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  <a href="https://www.linkedin.com/in/alex-teixeira-da-fonseca-5a99931a2/" alt="Linkedin">
+  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" /></a>
+
+  <a href="https://wa.me/+5511976184659?text=Olá%20Alex" alt="WhatsApp">
+  <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=API-DO-SEU-WHATSAPP"/></a>
+
+  <a href="https://www.instagram.com/devalextf/?hl=pt-br" alt="Instagram">
+  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=LINK-DO-SEU-INSTAGRAM"/></a>
+</p>
